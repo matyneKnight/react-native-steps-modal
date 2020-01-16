@@ -1,0 +1,34 @@
+{
+  "name": "react-native-steps-modal",
+  "version": "1.0.0",
+  "description": "React Native steps with indicator in a modal",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matyneKnight/react-native-steps-modal.git"
+  },
+  "deprecated": false,
+  "dependencies": {
+    "react-native-modal": "^11.5.3",
+    "react-native-page-control": "^1.1.1",
+    "react-native-snap-carousel": "^3.8.4"
+  },
+  "keywords": [
+    "react",
+    "native",
+    "steps",
+    "indicator",
+    "modal",
+    "carousal",
+    "mit"
+  ],
+  "author": "matyneKnight",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/matyneKnight/react-native-steps-modal/issues"
+  },
+  "homepage": "https://github.com/matyneKnight/react-native-steps-modal#readme"
+}
