@@ -29,9 +29,9 @@ import StepsModal from "react-native-steps-modal";
 
 ```javascript
 render () {
-  const first = <Text>I'm the first</Text>;
-  const second = <Text>I'm the second</Text>;
-  const third = <Text>I'm the third</Text>;
+  const first = <Text>I am the first</Text>;
+  const second = <Text>I am the second</Text>;
+  const third = <Text>I am the third</Text>;
 
     return (
       <View style={{ flex: 1}}>
@@ -47,9 +47,9 @@ render () {
 
 ```javascript
 render () {
-  const first = <Text>I'm the first</Text>;
-  const second = <Text>I'm the second</Text>;
-  const third = <Text>I'm the third</Text>;
+  const first = <Text>I am the first</Text>;
+  const second = <Text>I am the second</Text>;
+  const third = <Text>I am the third</Text>;
 
     return (
       <View style={{ flex: 1}}>
@@ -62,23 +62,22 @@ render () {
   }
 ```
 
-The `isVisible` and `stepsComponents` prop are the only prop you'll really need to make the steps modal work. You should control `isVisible` prop value by saving it in your state and setting it to `true` or `false` when needed.
+The `isVisible` and `stepsComponents` props are the only props you'll really need to make the steps modal work. You should control `isVisible` prop value by saving it in your state and setting it to `true` or `false` when needed.
 
 ## A complete example
 
-comming soon...
 For an example take a look at the `/example` directory.
 
 ## Available props
 
 | Name                           | Type             | Default                                    | Description                                |
 | ------------------------------ | ---------------- | ------------------------------------------ | -------------------------------------------|
+| isVisible                      | bool             | **REQUIRED**                               | Show the modal?                            |
+| stepsComponents                | array            | **REQUIRED**                               | The steps modal content components         |
 | animationIn                    | string or object | 'zoomInDown'                               | Modal show animation                       |
 | animationInTiming              | number           | 600                                        | Timing for the modal show animation (in ms)|
 | animationOut                   | string or object | 'zoomOutUp'                                | Modal hide animation                       |
 | animationOutTiming             | number           | 600                                        | Timing for the modal hide animation (in ms)|
-| stepsComponents                | array            | **REQUIRED**                               | The steps modal content components         |
-| isVisible                      | bool             | **REQUIRED**                               | Show the modal?                            |
 | hideSkipButton                 | bool             | false                                      | hide the step skip button                  |
 | skipLabel                      | bool             | 'Skip'                                     | skip button label                          |
 | doneLabel                      | bool             | 'Done'                                     | done button label                          |
@@ -95,5 +94,4 @@ Take a look at [react-native-animatable](https://github.com/oblador/react-native
 
 ## Acknowledgements
 
-Thanks..
 Pull requests, feedbacks and suggestions are welcome!
