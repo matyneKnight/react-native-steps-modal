@@ -86,6 +86,7 @@ For an example take a look at the `/example` directory.
 | indicatorStyle                 | object           | { borderRadius: 5, width: 13, height: 13 } | style for indicator                        |
 | buttonStyle                    | object           | { fontWeight: "bold", fontSize: 14 }       | style for buttons                          |
 | colortheme                     | string           | '#48d0cb'                                  | color for both indicator and button        |
+| backColor                      | string           | '#ffffff'                                  | steps modal background color               |
 
 
 ## Available animations
