@@ -31,6 +31,7 @@ import {
       indicatorStyle: { borderRadius: 5, width: 13, height: 13 },
       buttonStyle:  { fontWeight: "bold", fontSize: 14 },
       colortheme: "#48d0cb",
+      backColor: "#ffffff",
       stepsComponents: []
     }
     
@@ -121,12 +122,17 @@ import {
           animationOut={this.props.animationOut} animationInTiming={this.props.animationInTiming}
           animationOutTiming={this.props.animationOutTiming}>
             <View
-              style={styles.modalStyle}
+              style={{
+                backgroundColor: this.props.backColor,
+                borderRadius: 8,
+                paddingBottom: 10,
+                flex: 0
+              }}
             >
               <View
                 style={{
                   marginTop: 17,
-                  backgroundColor: "#ffffff",
+                  backgroundColor: this.props.backColor,
                   marginLeft: 10,
                   marginRight: 10,
                   alignItems: "center",
@@ -174,14 +180,5 @@ import {
       );
     }
   }
-  
-  const styles = StyleSheet.create({
-    modalStyle: {
-      backgroundColor: "#ffffff",
-      borderRadius: 8,
-      paddingBottom: 10,
-      flex: 0
-    },
-  });
 
   export { StepsModal };
