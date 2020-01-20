@@ -1,6 +1,6 @@
 # react-native-steps-modal
 
-[![npm version](https://badge.fury.io/js/react-native-steps-modal.svg)](https://badge.fury.io/js/react-native-steps-modal)
+[![npm version](https://badge.fury.io/js/react-native-steps-modal.svg)](https://badge.fury.io/js/react-native-steps-modal) [![npm](https://img.shields.io/npm/dm/react-native-steps-modal.svg)](https://npmjs.com/package/react-native-steps-modal)
 
 An enhanced and customizable react-native steps in a modal.
 
